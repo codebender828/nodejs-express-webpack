@@ -63,6 +63,8 @@ a {
   border-radius: 15px 1px 15px 1px;
   transition: all ease-in-out 0.2s;
   display: flex;
+  align-items: center;
+  justify-content: center;
 
   &:hover {
     filter: drop-shadow(0 3px 6px rgba(0, 0, 0, .2));
