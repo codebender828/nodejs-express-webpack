@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="dist/{{stylesheet}}.min.css">
+    {{#if script}}
+      <script defer src="dist/{{script}}.bundle.js"></script> 
+    {{/if}}
+  </head>
+  <body>
+    <main>
+      {{{body}}}
+    </main>
+  </body>
+  
+</html>

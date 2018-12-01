@@ -1,0 +1,77 @@
+@import "../components/fonts";
+@import "../components/variables";
+
+html {
+  width: 100%;
+  height: 100vh;
+  display: block;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: #d20b2e;
+  color: white;
+}
+
+main {
+  height: inherit;
+  padding: 0 0 0 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+a {
+  color: #00B7FF;
+  text-decoration: none;
+}
+
+.title__text {
+  font-family: var(--baijamjuree);
+  margin: 0;
+  font-size: 4em;
+}
+
+.subtitle__text {
+  font-family: var(--baijamjuree);
+  font-weight: 300;
+  font-size: 2em;
+  margin: 10px 0;
+
+}
+
+.paragraph__text {
+  font-family: var(--baijamjuree);
+  font-weight: 300;
+  font-size: 1.4em;
+  margin: 0;
+}
+
+.fork__button {
+  align-self: baseline;
+  margin-top: 50px;
+  padding: 10px 20px;
+  font-family: var(--baijamjuree);
+  border: none;
+  background: white;
+  color: #d20b2e;
+  font-size: 1em;
+  border-radius: 15px 1px 15px 1px;
+  transition: all ease-in-out 0.2s;
+  display: flex;
+
+  &:hover {
+    filter: drop-shadow(0 3px 6px rgba(0, 0, 0, .2));
+  }
+
+  .github__icon {
+    width: 20px;
+    transition: all 0.2s;
+    fill: #d20b2e;
+    margin-right: 10px;
+  }
+}
